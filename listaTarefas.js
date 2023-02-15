@@ -6,7 +6,7 @@ botaoAdicionar.addEventListener('click', function(){
     const textoDaTarefa = caixaTexto.value
     caixaTexto.value = ''
 
-    listaTarefas.appendChild(adicionaTarefa(textoDaTarefa))
+    listaTarefas.appendChild(adicionaTarefa('★ ' + textoDaTarefa))
 })
 
 function adicionaTarefa(textoDaTarefa) {
